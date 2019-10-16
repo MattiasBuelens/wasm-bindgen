@@ -40,6 +40,7 @@ pub mod performance;
 pub mod pre_element;
 pub mod progress_element;
 pub mod quote_element;
+pub mod readable_stream;
 pub mod response;
 pub mod rtc_rtp_transceiver_direction;
 pub mod script_element;
