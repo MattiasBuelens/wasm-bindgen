@@ -4,7 +4,7 @@ use wasm_bindgen_test::*;
 
 wasm_bindgen_test_configure!(run_in_browser);
 
-pub mod anchor_element;
+/*pub mod anchor_element;
 pub mod body_element;
 pub mod br_element;
 pub mod button_element;
@@ -39,9 +39,9 @@ pub mod param_element;
 pub mod performance;
 pub mod pre_element;
 pub mod progress_element;
-pub mod quote_element;
+pub mod quote_element;*/
 pub mod readable_stream;
-pub mod response;
+/*pub mod response;
 pub mod rtc_rtp_transceiver_direction;
 pub mod script_element;
 pub mod select_element;
@@ -51,8 +51,8 @@ pub mod style_element;
 pub mod table_element;
 pub mod title_element;
 pub mod whitelisted_immutable_slices;
-pub mod xpath_result;
-
+pub mod xpath_result;*/
+/*
 #[wasm_bindgen_test]
 fn deref_works() {
     fn _check(a: &web_sys::XmlHttpRequestUpload) {
@@ -62,3 +62,4 @@ fn deref_works() {
         let _x: &wasm_bindgen::JsValue = a;
     }
 }
+*/
