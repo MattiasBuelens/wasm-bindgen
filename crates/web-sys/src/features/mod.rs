@@ -526,6 +526,12 @@ mod gen_BrowserFindDirection;
 #[cfg(feature = "BrowserFindDirection")]
 pub use gen_BrowserFindDirection::*;
 
+#[cfg(feature = "ByteLengthQueuingStrategy")]
+#[allow(non_snake_case)]
+mod gen_ByteLengthQueuingStrategy;
+#[cfg(feature = "ByteLengthQueuingStrategy")]
+pub use gen_ByteLengthQueuingStrategy::*;
+
 #[cfg(feature = "Cache")]
 #[allow(non_snake_case)]
 mod gen_Cache;
@@ -957,6 +963,12 @@ pub use gen_ConvolverOptions::*;
 mod gen_Coordinates;
 #[cfg(feature = "Coordinates")]
 pub use gen_Coordinates::*;
+
+#[cfg(feature = "CountQueuingStrategy")]
+#[allow(non_snake_case)]
+mod gen_CountQueuingStrategy;
+#[cfg(feature = "CountQueuingStrategy")]
+pub use gen_CountQueuingStrategy::*;
 
 #[cfg(feature = "Credential")]
 #[allow(non_snake_case)]
@@ -5050,6 +5062,18 @@ mod gen_PushSubscriptionOptionsInit;
 #[cfg(feature = "PushSubscriptionOptionsInit")]
 pub use gen_PushSubscriptionOptionsInit::*;
 
+#[cfg(feature = "QueuingStrategy")]
+#[allow(non_snake_case)]
+mod gen_QueuingStrategy;
+#[cfg(feature = "QueuingStrategy")]
+pub use gen_QueuingStrategy::*;
+
+#[cfg(feature = "QueuingStrategyInit")]
+#[allow(non_snake_case)]
+mod gen_QueuingStrategyInit;
+#[cfg(feature = "QueuingStrategyInit")]
+pub use gen_QueuingStrategyInit::*;
+
 #[cfg(feature = "RadioNodeList")]
 #[allow(non_snake_case)]
 mod gen_RadioNodeList;
@@ -5074,11 +5098,65 @@ mod gen_RcwnStatus;
 #[cfg(feature = "RcwnStatus")]
 pub use gen_RcwnStatus::*;
 
+#[cfg(feature = "ReadableByteStreamController")]
+#[allow(non_snake_case)]
+mod gen_ReadableByteStreamController;
+#[cfg(feature = "ReadableByteStreamController")]
+pub use gen_ReadableByteStreamController::*;
+
 #[cfg(feature = "ReadableStream")]
 #[allow(non_snake_case)]
 mod gen_ReadableStream;
 #[cfg(feature = "ReadableStream")]
 pub use gen_ReadableStream::*;
+
+#[cfg(feature = "ReadableStreamByobReader")]
+#[allow(non_snake_case)]
+mod gen_ReadableStreamByobReader;
+#[cfg(feature = "ReadableStreamByobReader")]
+pub use gen_ReadableStreamByobReader::*;
+
+#[cfg(feature = "ReadableStreamByobRequest")]
+#[allow(non_snake_case)]
+mod gen_ReadableStreamByobRequest;
+#[cfg(feature = "ReadableStreamByobRequest")]
+pub use gen_ReadableStreamByobRequest::*;
+
+#[cfg(feature = "ReadableStreamDefaultController")]
+#[allow(non_snake_case)]
+mod gen_ReadableStreamDefaultController;
+#[cfg(feature = "ReadableStreamDefaultController")]
+pub use gen_ReadableStreamDefaultController::*;
+
+#[cfg(feature = "ReadableStreamDefaultReader")]
+#[allow(non_snake_case)]
+mod gen_ReadableStreamDefaultReader;
+#[cfg(feature = "ReadableStreamDefaultReader")]
+pub use gen_ReadableStreamDefaultReader::*;
+
+#[cfg(feature = "ReadableStreamGetReaderOptions")]
+#[allow(non_snake_case)]
+mod gen_ReadableStreamGetReaderOptions;
+#[cfg(feature = "ReadableStreamGetReaderOptions")]
+pub use gen_ReadableStreamGetReaderOptions::*;
+
+#[cfg(feature = "ReadableStreamIteratorOptions")]
+#[allow(non_snake_case)]
+mod gen_ReadableStreamIteratorOptions;
+#[cfg(feature = "ReadableStreamIteratorOptions")]
+pub use gen_ReadableStreamIteratorOptions::*;
+
+#[cfg(feature = "ReadableStreamReaderMode")]
+#[allow(non_snake_case)]
+mod gen_ReadableStreamReaderMode;
+#[cfg(feature = "ReadableStreamReaderMode")]
+pub use gen_ReadableStreamReaderMode::*;
+
+#[cfg(feature = "ReadableStreamType")]
+#[allow(non_snake_case)]
+mod gen_ReadableStreamType;
+#[cfg(feature = "ReadableStreamType")]
+pub use gen_ReadableStreamType::*;
 
 #[cfg(feature = "RecordingState")]
 #[allow(non_snake_case)]
@@ -6057,6 +6135,12 @@ pub use gen_StorageManager::*;
 mod gen_StorageType;
 #[cfg(feature = "StorageType")]
 pub use gen_StorageType::*;
+
+#[cfg(feature = "StreamPipeOptions")]
+#[allow(non_snake_case)]
+mod gen_StreamPipeOptions;
+#[cfg(feature = "StreamPipeOptions")]
+pub use gen_StreamPipeOptions::*;
 
 #[cfg(feature = "StyleRuleChangeEventInit")]
 #[allow(non_snake_case)]
@@ -7083,6 +7167,12 @@ pub use gen_UiEvent::*;
 mod gen_UiEventInit;
 #[cfg(feature = "UiEventInit")]
 pub use gen_UiEventInit::*;
+
+#[cfg(feature = "UnderlyingSource")]
+#[allow(non_snake_case)]
+mod gen_UnderlyingSource;
+#[cfg(feature = "UnderlyingSource")]
+pub use gen_UnderlyingSource::*;
 
 #[cfg(feature = "Url")]
 #[allow(non_snake_case)]
