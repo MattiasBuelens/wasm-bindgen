@@ -487,6 +487,10 @@ impl<'src> FirstPass<'src, (&'src str, ApiStability)> for weedle::interface::Int
                 log::warn!("Unsupported WebIDL iterable interface member: {:?}", self);
                 Ok(())
             }
+            InterfaceMember::AsyncIterable(_async_iterable) => {
+                log::warn!("Unsupported WebIDL async iterable interface member: {:?}", self);
+                Ok(())
+            }
             // TODO
             InterfaceMember::Maplike(_) => {
                 log::warn!("Unsupported WebIDL Maplike interface member: {:?}", self);
