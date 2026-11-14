@@ -158,6 +158,7 @@
   `panic=unwind`. The future returned to `future_to_promise` held the borrow
   across an `.await`, which is never `UnwindSafe`. The receiver and arguments
   are still required to be `RefUnwindSafe` / `UnwindSafe`, as for sync exports.
+  [#5474](https://github.com/wasm-bindgen/wasm-bindgen/pull/5474)
 
 ### Removed
 
