@@ -154,6 +154,11 @@
   `XrInputSourceArray::entries()` in web-sys.
   [#5458](https://github.com/wasm-bindgen/wasm-bindgen/pull/5458)
 
+* Async exports taking `&mut self` or a `&mut T` argument now compile with
+  `panic=unwind`. The future returned to `future_to_promise` held the borrow
+  across an `.await`, which is never `UnwindSafe`. The receiver and arguments
+  are still required to be `RefUnwindSafe` / `UnwindSafe`, as for sync exports.
+
 ### Removed
 
 ## [0.2.130](https://github.com/wasm-bindgen/wasm-bindgen/compare/0.2.129...0.2.130)
